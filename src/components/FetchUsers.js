@@ -31,7 +31,7 @@ const FetchUsers = () => {
       ) : users.length === 0 ? (
 
         <table>
-        <p>No data found to display</p>
+        <td>No data found to display</td>
         </table>
       ) : (
         <table>
