@@ -29,7 +29,10 @@ const FetchUsers = () => {
       {loading ? (
         <p>Loading...</p>
       ) : users.length === 0 ? (
-        <p>No users available.</p>
+
+        <table>
+        <p>No data found</p>
+        </table>
       ) : (
         <table>
           <thead>
